@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.68cf1656.css",
+    "main.js": "/static/js/main.6ae2e141.js",
+    "static/media/Compass.otf": "/static/media/Compass.b5d7d5f0eb371dc589d5.otf",
+    "static/media/Compass.woff2": "/static/media/Compass.aedad3d5521140b275fc.woff2",
+    "index.html": "/index.html",
+    "main.68cf1656.css.map": "/static/css/main.68cf1656.css.map",
+    "main.6ae2e141.js.map": "/static/js/main.6ae2e141.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68cf1656.css",
+    "static/js/main.6ae2e141.js"
+  ]
+}

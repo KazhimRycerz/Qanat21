@@ -1,0 +1,40 @@
+@import "../App.scss";
+@import '../typo/typo.scss';
+
+
+h1 {
+    color: #F5AF7C
+}
+
+
+p {
+    font-family:"Compass";
+    font-size: 90px;
+    color: #0B4060;
+    text-shadow:5px 5px 5px #F5AF7C;
+    text-align: center;
+    display: block;
+}
+
+#logo {
+    font-family: "Compass";
+    font-size: 600px;
+    color: #0B4060;
+    //border: white solid;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    text-shadow: 5px 5px 0px #transparent;
+
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 25%;
+
+}
+
+#QanatSchriftzug {
+width: 50%;
+}

@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.68cf1656.css",
-    "main.js": "/static/js/main.6ae2e141.js",
+    "main.css": "/static/css/main.77d81de9.css",
+    "main.js": "/static/js/main.db6ae070.js",
     "static/media/Compass.otf": "/static/media/Compass.b5d7d5f0eb371dc589d5.otf",
+    "static/media/Qanat21_Logo_Q.png": "/static/media/Qanat21_Logo_Q.b3e9a88f5781f7e2d961.png",
     "static/media/Compass.woff2": "/static/media/Compass.aedad3d5521140b275fc.woff2",
+    "static/media/Qanat_Schriftzug.png": "/static/media/Qanat_Schriftzug.df224fb0ee8a5e98b99a.png",
     "index.html": "/index.html",
-    "main.68cf1656.css.map": "/static/css/main.68cf1656.css.map",
-    "main.6ae2e141.js.map": "/static/js/main.6ae2e141.js.map"
+    "main.77d81de9.css.map": "/static/css/main.77d81de9.css.map",
+    "main.db6ae070.js.map": "/static/js/main.db6ae070.js.map"
   },
   "entrypoints": [
-    "static/css/main.68cf1656.css",
-    "static/js/main.6ae2e141.js"
+    "static/css/main.77d81de9.css",
+    "static/js/main.db6ae070.js"
   ]
 }

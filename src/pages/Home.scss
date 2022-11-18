@@ -1,0 +1,100 @@
+@import "../scss/App.scss";
+@import '../scss/typography/typography.scss';
+
+
+h1 {
+    color: $qanat_blue;
+    font-size: 50px;
+    font-family: $primary-font-bold;
+}
+
+#firstoption {
+    background-color: $qanat_blue;
+    padding: 20px;
+    height: 45vh;
+}
+#secondoption {
+    background-color: $qanat_sand;
+    padding: 20px;
+    height: 45vh;
+}
+p {
+    font-family:$qanat;
+    font-size: 90px;
+    color: $qanat_sand;
+    font-weight: 100;
+    letter-spacing: 10px;
+    //color: #0B4060;
+    //text-shadow:5px 5px 5px #F5AF7C;
+    text-align: center;
+    display: block;
+    width:fit-content;
+    em {
+        font-family: $primary-font-bold;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: -10px;
+        text-decoration: underline;
+        font-size: 80px;
+        vertical-align: top;
+    }
+}
+
+
+#logolang {
+    border: 2pt $qanat_sand solid;
+    display:block;
+    padding: 20px;
+    margin: 10px auto;
+    width:fit-content
+}
+
+#logolang2 {
+    border: 2pt $qanat_blue solid;
+    color: $qanat_blue;
+    display: block;
+    padding: 20px;
+    margin: 10px auto;
+    width:fit-content;    
+}
+
+#logoschrift {
+    font-family: $qanat;
+    font-size: 300px;
+    color: $qanat_sand;
+    //border: white solid;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    border: none;
+    //text-shadow: 5px 5px 0px #transparent;
+}
+#logoschrift2 {
+    font-family: $qanat;
+    font-size: 300px;
+    color: $qanat_blue;
+    //border: white solid;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    border: none
+    //text-shadow: 5px 5px 0px #transparent;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 25%;
+
+}
+
+#QanatSchriftzug {
+width: 50%;
+}
+
+Header {
+    height: 10vh;
+    border-bottom: solid 3px white;
+}
+
+

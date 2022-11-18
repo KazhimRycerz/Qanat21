@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import {  
   BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import './App.scss';
-import Page404 from './components/Page404.jsx';
-import Home from './components/Home.jsx';
+import './scss/App.scss';
+import Page404 from './pages/Page404.jsx';
+import Home from './pages/Home.jsx';
 //import 'Name' from './Name';
 
 
@@ -14,6 +14,7 @@ function App() {
         <Routes>
           <Route path="*" element={<Page404 />} />
           <Route path="/" element={<Home />} />
+          <Route path="/Qanat21" element={<Home />} />
           <Route path="/Home" element={<Home />} />
           {/* <Route path="/PersonalData" element={<PersonalData />} />
           <Route path="/Motivation" element={<Motivation />} />

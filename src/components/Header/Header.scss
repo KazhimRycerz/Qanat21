@@ -1,0 +1,32 @@
+@import '../../scss/global.scss';
+
+
+nav {
+  display: flex;
+  background-color: $qanat_blue;
+  color: $qanat_sand;
+  box-shadow: 10px 20px 30px $qanat_sand;
+  border-bottom: 2px $qanat_sand;
+
+  ul {
+    font-family: $primary-font;
+    font-size: 20px;
+    position:static;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content:right;
+    gap: 50px;
+    align-items: center;
+    padding: 30px;
+    flex-flow: row nowrap;
+    width: 100%;
+    list-style-type: none;
+  }
+  p {
+    font-size: 5rem;
+    padding: 20px;
+    font-weight:100;
+  }
+}
+   

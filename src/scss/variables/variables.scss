@@ -1,0 +1,53 @@
+//colors
+$qanat_blue: rgb(10,40,60);
+$qanat_sand: rgb(245, 190, 125);
+//$qanat_sand: rgb(245, 175, 125);
+
+//shadows
+$boxshadow: 0.5rem 0.5rem 2rem;
+$boxshadowbottom: 2.5rem 0.5rem 2rem;
+$btnshadow: 0px 0px 10px 1px $qanat_sand inset, -2px -2px 5px 3px grey,  -5px -5px 5px white inset; 
+$rshadow: 3px 3px black, -3px -3px black, 3px -3px black, -3px 3px black;
+$hovershadow:3px;
+$text-shadow: 1px 1px 20px $qanat_blue;
+
+//backgroundcolours
+$grad: linear-gradient($qanat_blue, $qanat_sand) fixed;
+
+/* textsizes*/
+$xxxlarge: 3rem;
+$xxlarge: 2.0rem;
+$xlarge: 1.5rem;
+$large: 1.2rem;
+$normal: 1.1rem;
+$small: 0.9rem;
+$xsmall: 0.75rem;
+$xxsmall: 0.5rem;
+/*$medium: 4rem;
+$large: 10rem;
+$huge: 20rem;
+
+$border-radius:*/
+$radiuslarge: 20px;
+$radiussmall:10px;
+$radiusxsmall:5px;
+
+/*Mediasetting*/
+$phone: 675px;
+$tablet: 760px;
+$desktop: 1024px; 
+$widedesktop: 2048px;
+$highres: 3000px;
+
+/* Fonts */
+$qanat: "Compass";
+$primary-font: "FoundSanExpNorm", sans-serif;
+$primary-font-bold: "FoundSanBd";
+
+
+/* logos */
+$logosize10: 10px;
+$logosize20: 20px;
+
+  
+  

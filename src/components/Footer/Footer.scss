@@ -1,0 +1,45 @@
+@import '../../scss/global.scss';
+
+
+.footer {
+  display: flex;
+  background-color: $qanat_sand;
+  color: $qanat_blue;
+  /* box-shadow: 10px 20px 30px $qanat_blue; */
+  /* border-bottom: 2px $qanat_blue; */
+
+  ul {
+    font-family: $primary-font;
+    font-size: 20px;
+    position:static;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content:left;
+    gap: 100px;
+    align-items: center;
+    padding: 30px;
+    flex-flow: row nowrap;
+    width: 100%;
+    list-style-type: none;
+  }
+  
+  p {
+    font-family: $primary-font;
+    font-size: 1rem;
+    padding: 20px;
+    font-weight:100;
+    color: $qanat_blue;
+    letter-spacing: normal;
+  }
+
+  #footer_logo{
+      font-size: 5rem;
+      padding: 20px;
+      font-weight:100;
+      color: $qanat_blue;
+      font-family: $qanat;
+      line-height: 120px;
+    }
+}
+   

@@ -1,26 +1,79 @@
-@import "../scss/App.scss";
-@import '../scss/typography/typography.scss';
+@import "../scss/global.scss";
 
+
+body {
+    width: 100vw;
+    height: 100vh;
+    //opacity: 0.5;
+    
+}
 
 h1 {
     color: $qanat_blue;
     font-size: 50px;
     font-family: $primary-font-bold;
 }
-
-#firstoption {
-    background-color: $qanat_blue;
-    padding: 20px;
-    height: 45vh;
+Header {
+    height: 10%;
+    //border-bottom: solid 0px white;
 }
-#secondoption {
+
+#bg1 {
+    background-color: $qanat_sand;
+    height: 40%;
     background-color: $qanat_sand;
     padding: 20px;
-    height: 45vh;
+    margin: 0;
 }
+#bg2 {
+    background-color: $qanat_blue;
+    height: 40%;
+    background-color: $qanat_blue;
+    padding: 20px;
+}
+
+#firstoption {
+    background-color: $qanat_sand;
+    padding: 20px;
+    height: 98%;
+    width: 100%;
+    border: 4px solid $qanat_blue;
+    margin: 0px auto;
+    //background-image: url(../Images/image2.jpg);
+   //background-image: linear-gradient($qanat_blue, $qanat_sand);
+    //background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));
+}
+
+#secondoption {
+    background-color: $qanat_blue;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    border: 4px solid $qanat_sand;
+    margin: 0px auto;
+    //background-image: linear-gradient($qanat_sand, $qanat_blue);
+}
+
+#logolang {
+    border: 0.5vw $qanat_sand solid;
+    display:block;
+    padding: 20px;
+    margin: 10px auto;
+    width:fit-content
+}
+
+#logolang2 {
+    border: 0.5vw $qanat_blue solid;
+    color: $qanat_blue;
+    display: block;
+    padding: 20px;
+    margin: 10px auto;
+    width:fit-content;    
+}
+
 p {
     font-family:$qanat;
-    font-size: 90px;
+    font-size: 9vw;
     color: $qanat_sand;
     font-weight: 100;
     letter-spacing: 10px;
@@ -35,32 +88,14 @@ p {
         font-weight: 700;
         letter-spacing: -10px;
         text-decoration: underline;
-        font-size: 80px;
+        font-size: 8vw;
         vertical-align: top;
     }
 }
 
-
-#logolang {
-    border: 2pt $qanat_sand solid;
-    display:block;
-    padding: 20px;
-    margin: 10px auto;
-    width:fit-content
-}
-
-#logolang2 {
-    border: 2pt $qanat_blue solid;
-    color: $qanat_blue;
-    display: block;
-    padding: 20px;
-    margin: 10px auto;
-    width:fit-content;    
-}
-
 #logoschrift {
     font-family: $qanat;
-    font-size: 300px;
+    font-size: 30vw;
     color: $qanat_sand;
     //border: white solid;
     margin: 0 auto;
@@ -71,9 +106,8 @@ p {
 }
 #logoschrift2 {
     font-family: $qanat;
-    font-size: 300px;
+    font-size: 30vw;
     color: $qanat_blue;
-    //border: white solid;
     margin: 0 auto;
     text-align: center;
     display: block;
@@ -81,7 +115,7 @@ p {
     //text-shadow: 5px 5px 0px #transparent;
 }
 
-img {
+/* img {
     display: block;
     margin: 0 auto;
     width: 25%;
@@ -90,11 +124,10 @@ img {
 
 #QanatSchriftzug {
 width: 50%;
-}
+} */
 
-Header {
-    height: 10vh;
-    border-bottom: solid 3px white;
+Footer {
+    height: 10%;
 }
 
 

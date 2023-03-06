@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Qanat21/static/css/main.b81c81bf.css",
-    "main.js": "/Qanat21/static/js/main.2500fa23.js",
+    "main.js": "/Qanat21/static/js/main.d21adbbd.js",
     "static/media/Qanat_Projektziele.png": "/Qanat21/static/media/Qanat_Projektziele.b2a2b86c5b0452618554.png",
     "static/media/qanatimg.jpg": "/Qanat21/static/media/qanatimg.0522e0ac2ebf9069eadc.jpg",
     "static/media/carbono.otf": "/Qanat21/static/media/carbono.cf8cd6948cbde487af68.otf",
@@ -33,10 +33,10 @@
     "static/media/VIA-Verlag.woff2": "/Qanat21/static/media/VIA-Verlag.ca1bde523566b12176ee.woff2",
     "index.html": "/Qanat21/index.html",
     "main.b81c81bf.css.map": "/Qanat21/static/css/main.b81c81bf.css.map",
-    "main.2500fa23.js.map": "/Qanat21/static/js/main.2500fa23.js.map"
+    "main.d21adbbd.js.map": "/Qanat21/static/js/main.d21adbbd.js.map"
   },
   "entrypoints": [
     "static/css/main.b81c81bf.css",
-    "static/js/main.2500fa23.js"
+    "static/js/main.d21adbbd.js"
   ]
 }

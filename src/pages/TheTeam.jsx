@@ -19,12 +19,11 @@ const Home = () => (
               <p>Ebrahim Salimi, Bauingenieur, BA, Master-Student an der Universität Duisburg-Essen</p>
               <p>Joachim Ritter, Strategist, Journalist, Webdeveloper</p>
             </div>
-            <img src={team} />
+            <img src={team} alt=""/>
           </div> 
         </div>
         <Footer />
-      {/* <img id="QanatSchriftzug" src={Qanat_Logo_Schriftzug} alt="" />
-      <img id="QuanatLogo" src={Qanat_Logo} alt="" /> */}
+      
       
      
     </div>

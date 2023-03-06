@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Qanat21/static/css/main.41f77fd7.css",
-    "main.js": "/Qanat21/static/js/main.6cb221e3.js",
+    "main.css": "/Qanat21/static/css/main.0e5ccea4.css",
+    "main.js": "/Qanat21/static/js/main.00f092df.js",
     "static/media/carbono.otf": "/Qanat21/static/media/carbono.cf8cd6948cbde487af68.otf",
     "static/media/ChalkLine-Outline.otf": "/Qanat21/static/media/ChalkLine-Outline.54c106fd3b70d4b0b22a.otf",
     "static/media/Compass.otf": "/Qanat21/static/media/Compass.b5d7d5f0eb371dc589d5.otf",
@@ -31,11 +31,11 @@
     "static/media/VIA-Verlag.otf": "/Qanat21/static/media/VIA-Verlag.f9b0807e13383d5cb88c.otf",
     "static/media/VIA-Verlag.woff2": "/Qanat21/static/media/VIA-Verlag.ca1bde523566b12176ee.woff2",
     "index.html": "/Qanat21/index.html",
-    "main.41f77fd7.css.map": "/Qanat21/static/css/main.41f77fd7.css.map",
-    "main.6cb221e3.js.map": "/Qanat21/static/js/main.6cb221e3.js.map"
+    "main.0e5ccea4.css.map": "/Qanat21/static/css/main.0e5ccea4.css.map",
+    "main.00f092df.js.map": "/Qanat21/static/js/main.00f092df.js.map"
   },
   "entrypoints": [
-    "static/css/main.41f77fd7.css",
-    "static/js/main.6cb221e3.js"
+    "static/css/main.0e5ccea4.css",
+    "static/js/main.00f092df.js"
   ]
 }

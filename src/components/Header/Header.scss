@@ -9,19 +9,31 @@ nav {
   /* border-bottom: 2px $qanat_blue; */
 
   ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:right;
+    align-items: center;
+    gap: 20px;
     font-family: $primary-font;
     font-size: 20px;
     position:static;
     top: 0px;
     left: 0px;
-    display: flex;
-    justify-content:right;
-    gap: 50px;
-    align-items: center;
-    padding: 30px;
-    flex-flow: row nowrap;
+    padding: 20px;
     width: 100%;
-    list-style-type: none;
+    li {
+      list-style-type: none;
+      color: white; 
+      text-decoration: none;
+      text-decoration-style: wavy $qanat_sand;
+      p{
+        letter-spacing: 1px;
+        color: $qanat_sand; 
+        font-family: $primary-font;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    }
   }
   p {
     font-size: 5rem;
@@ -30,4 +42,4 @@ nav {
     color: $qanat_sand;
   }
 }
-   
+

@@ -39,30 +39,16 @@ Header {
     width: 100%;
     border: 4px solid $qanat_blue;
     margin: 0px auto;
+   /*  background-image: url(../Images/image2.jpg);
+    background-position: 50%;
+    background-size: 150%; */
     //background-image: url(../Images/image2.jpg);
    //background-image: linear-gradient($qanat_blue, $qanat_sand);
     //background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));
 }
 
-#secondoption {
-    background-color: $qanat_blue;
-    padding: 20px;
-    height: 100%;
-    width: 100%;
-    border: 4px solid $qanat_sand;
-    margin: 0px auto;
-    //background-image: linear-gradient($qanat_sand, $qanat_blue);
-}
 
 #logolang {
-    border: 0.5vw $qanat_sand solid;
-    display:block;
-    padding: 20px;
-    margin: 10px auto;
-    width:fit-content
-}
-
-#logolang2 {
     border: 0.5vw $qanat_blue solid;
     color: $qanat_blue;
     display: block;
@@ -82,7 +68,7 @@ p {
     text-align: center;
     display: block;
     width:fit-content;
-    em {
+    span {
         font-family: $primary-font-bold;
         font-style: normal;
         font-weight: 700;
@@ -93,7 +79,7 @@ p {
     }
 }
 
-#logoschrift {
+#logoschrift2 {
     font-family: $qanat;
     font-size: 30vw;
     color: $qanat_sand;
@@ -102,29 +88,89 @@ p {
     text-align: center;
     display: block;
     border: none;
+    //color: transparent;
     //text-shadow: 5px 5px 0px #transparent;
+    
 }
-#logoschrift2 {
+#unterzeileSand {
+    font-family: $primary-font;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    color: $qanat_sand;
+    margin: -2rem auto 2rem;
+}
+
+#centerTop {
+    display: flex;
+    flex: 1;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#unterzeileBlue {
+    width: 10%;
+    font-family: $primary-font;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    color: $qanat_blue;
+    text-align: left;
+    margin: 0 auto;
+    }
+#logoschrift {
     font-family: $qanat;
     font-size: 30vw;
     color: $qanat_blue;
     margin: 0 auto;
     text-align: center;
-    display: block;
+    display: inline;
     border: none
     //text-shadow: 5px 5px 0px #transparent;
 }
 
-/* img {
-    display: block;
+#navOnPage {
     margin: 0 auto;
-    width: 25%;
-
+    ul {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content:space-between;
+        gap: 10px;
+        align-items: flex-end;
+        padding: 0px;
+        font-family: $primary-font;
+        letter-spacing: 1px;
+        //text-decoration: none;
+        li {
+            text-decoration: none;
+            list-style-type: none;
+            p{
+                letter-spacing: 1px;
+                color: $qanat_blue; 
+                font-family: $primary-font;
+                font-size: 20px;
+            }
+        }   
+    }
 }
 
-#QanatSchriftzug {
-width: 50%;
-} */
+#secondoption {
+    background-color: $qanat_blue;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    border: 4px solid $qanat_sand;
+    margin: 0px auto;
+   
+    //background-image: linear-gradient($qanat_sand, $qanat_blue);
+}
+
+#logolang2 {
+    border: 0.5vw $qanat_sand solid;
+    display:block;
+    padding: 20px;
+    margin: 10px auto;
+    width:fit-content
+}
 
 Footer {
     height: 10%;

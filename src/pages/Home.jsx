@@ -14,7 +14,7 @@ const Home = () => (
           <div id="firstoption">
             <p id="logolang">qanat<span>21</span></p> 
             <div id="centerTop">
-              <p id="unterzeileBlue">Wassermanagement für eine gesicherte Zukunft</p>
+              <p id="unterzeileBlue">Süsswassermanagement für eine gesicherte Zukunft</p>
               <p id="logoschrift">Q</p> 
               <p id="navOnPage">
                 <ul>

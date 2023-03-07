@@ -7,7 +7,11 @@
     display: block;
     padding: 20px;
     margin: 10px auto;
-    width:fit-content;    
+    width:fit-content;  
+    font-size: 5vw;
+    span{
+        font-size: 5vw;
+    }
 }
 
 p {
@@ -34,7 +38,7 @@ p {
 
 #logoschrift2 {
     font-family: $qanat;
-    font-size: 30vw;
+    font-size: 15vw;
     color: $qanat_sand;
     //border: white solid;
     margin: 0 auto;
@@ -66,7 +70,7 @@ p {
 }
 #logoschrift {
     font-family: $qanat;
-    font-size: 30vw;
+    font-size: 15vw;
     color: $qanat_blue;
     margin: 0 auto;
     text-align: center;
@@ -114,7 +118,11 @@ p {
     display:block;
     padding: 20px;
     margin: 10px auto;
-    width:fit-content
+    width:fit-content;
+    font-size: 5vw;
+    span{
+        font-size: 5vw;
+    }
 }
 
 @media screen and (max-width:$desktop){

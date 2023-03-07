@@ -7,28 +7,31 @@
     justify-content: center;
     gap: 20px;
     div {
+        width: 30%;
+        margin: 100px;
         h2 {
             display: inline;
             margin: 20px auto;
             color: $qanat_blue;
             font-size: 40px;
             font-family: $primary-font-bold;
-            margin: 0 auto;
+            //margin: 0 auto;
             text-align: left;
         }
         p {
             font-family: $primary-font;
-            font-size: $xlarge;
+            font-size: $xxlarge;
             color: $qanat_blue;
             font-weight: normal;
             letter-spacing: 1px;
-            margin-top: 50px;
+            //margin-top: 50px;
             text-align: left;
             display: block;
             width:fit-content;
         }
     }
     img {
-        width: 70%;
+        width: 50%;
+        object-fit: contains;
     }
 }

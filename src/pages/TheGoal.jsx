@@ -6,7 +6,7 @@ import projektziel from "../Images/Qanat_Projektziele.png"
 
 
 const Home = () => (
-    <div>
+    <div className="page">
      <Header />
         <div className="bg1">
           <div className="firstoption" id="goal">

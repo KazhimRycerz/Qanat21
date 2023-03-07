@@ -113,18 +113,20 @@ body {
   justify-content: center;
   gap: 20px;
 }
+#system div {
+  margin: 100px;
+}
 #system div h2 {
   display: inline;
   margin: 20px auto;
   color: rgb(10, 40, 60);
   font-size: 40px;
   font-family: "FoundSanBd";
-  margin: 0 auto;
   text-align: left;
 }
 #system div p {
   font-family: "FoundSanExpNorm", sans-serif;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: rgb(10, 40, 60);
   font-weight: normal;
   letter-spacing: 1px;
@@ -135,5 +137,5 @@ body {
   width: fit-content;
 }
 #system img {
-  width: 70%;
+  width: 50%;
 }/*# sourceMappingURL=TheSystem.css.map */

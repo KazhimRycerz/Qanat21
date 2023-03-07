@@ -11,8 +11,8 @@ const Home = () => (
       <div className="bg1" >
         <div className="firstoption" id="system">
           <div>
-            <h2>Das System</h2>
-            <p>Ein 5000 Jahre altes System plus modernes digitales Management...</p>
+            <h2>Die Idee</h2>
+            <p>Ein 5000 Jahre altes System angepasst an moderne digitale steuerungsmöglichkeiten.</p>
           </div>
           <img src={qanatimg} alt="" />
         </div> 

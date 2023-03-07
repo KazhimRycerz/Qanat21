@@ -2,18 +2,21 @@
 
 
 #goal {
-    height: 50%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 20px;
+    
         h2 {
             display: block;
-            margin: 20px auto;
+            margin: 100px auto;
             color: $qanat_blue;
             font-size: 40px;
             font-family: $primary-font-bold;
-            margin: 0 auto;
             text-align: left;
         }
         #goalimg {
-            width: 100%;
+            width: 60%;
             object-fit: cover;
         }
     

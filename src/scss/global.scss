@@ -5,13 +5,19 @@
 
 body {
     background-color: $qanat_sand;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.page {
+    
 }
 
 .header {
     position: fixed;
     top: 0;
     height: 100px;
-    width: 100%;
+    width: 60%;
     //border-bottom: solid 0px white;
 }
 

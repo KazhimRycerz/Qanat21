@@ -6,7 +6,6 @@ import Home from './pages/Home.jsx';
 import TheSystem from './pages/TheSystem.jsx';
 import TheGoal from './pages/TheGoal.jsx';
 import TheTeam from './pages/TheTeam.jsx';
-//import 'Name' from './Name';
 
 
 function App() {

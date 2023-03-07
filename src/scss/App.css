@@ -57,20 +57,22 @@ $border-radius:*/
 /* logos */
 body {
   background-color: rgb(245, 190, 125);
+  width: 60%;
+  margin: 0 auto;
 }
 
 .header {
   position: fixed;
   top: 0;
   height: 100px;
-  width: 100%;
+  width: 60%;
 }
 
 .footer {
   position: static;
   bottom: 0;
   height: 100px;
-  width: 100%;
+  width: 60%;
 }
 
 .bg1 {
@@ -107,124 +109,6 @@ body {
   margin: 0px auto;
 }
 
-#logolang {
-  border: 0.5vw rgb(10, 40, 60) solid;
-  color: rgb(10, 40, 60);
-  display: block;
-  padding: 20px;
-  margin: 10px auto;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-p {
-  font-family: "Compass";
-  font-size: 9vw;
-  color: rgb(245, 190, 125);
-  font-weight: 100;
-  letter-spacing: 10px;
-  text-align: center;
-  display: block;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-p span {
-  font-family: "FoundSanBd";
-  font-style: normal;
-  font-weight: 700;
-  letter-spacing: -10px;
-  text-decoration: underline;
-  font-size: 8vw;
-  vertical-align: top;
-}
-
-#logoschrift2 {
-  font-family: "Compass";
-  font-size: 30vw;
-  color: rgb(245, 190, 125);
-  margin: 0 auto;
-  text-align: center;
-  display: block;
-  border: none;
-}
-
-#centerTop {
-  display: flex;
-  flex-flow: row nowrap;
-  flex: 1;
-  gap: 150px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-#unterzeileBlue {
-  width: 10%;
-  font-family: "FoundSanExpNorm", sans-serif;
-  font-size: 2rem;
-  letter-spacing: 1px;
-  color: rgb(10, 40, 60);
-  text-align: left;
-  margin: 0 auto;
-}
-
-#logoschrift {
-  font-family: "Compass";
-  font-size: 30vw;
-  color: rgb(10, 40, 60);
-  margin: 0 auto;
-  text-align: center;
-  display: inline;
-  border: none;
-}
-
-#navOnPage {
-  margin: 0 auto;
-}
-#navOnPage ul {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-between;
-  gap: 10px;
-  align-items: flex-end;
-  padding: 0px;
-  font-family: "FoundSanExpNorm", sans-serif;
-  letter-spacing: 1px;
-}
-#navOnPage ul li {
-  text-decoration: none;
-  list-style-type: none;
-}
-#navOnPage ul li p {
-  letter-spacing: 1px;
-  color: rgb(10, 40, 60);
-  font-family: "FoundSanExpNorm", sans-serif;
-  font-size: 20px;
-}
-
-#unterzeileSand {
-  font-family: "FoundSanExpNorm", sans-serif;
-  font-size: 2rem;
-  letter-spacing: 1px;
-  color: rgb(245, 190, 125);
-  margin: -2rem auto 2rem;
-}
-
-#logolang2 {
-  border: 0.5vw rgb(245, 190, 125) solid;
-  display: block;
-  padding: 20px;
-  margin: 10px auto;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-@media screen and (max-width: 1024px) {
-  #unterzeileBlue, #unterzeileSand {
-    font-size: 24px;
-  }
-}
-@media screen and (max-width: 760px) {
-  #unterzeileBlue, #unterzeileSand {
-    font-size: 15x;
-  }
-}/*# sourceMappingURL=Home.css.map */
+App {
+  /* text-align: center; */
+}/*# sourceMappingURL=App.css.map */

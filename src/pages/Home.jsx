@@ -30,7 +30,7 @@ const Home = () => (
           <div className="secondoption">
             <p id="logolang2">qanat<span>21</span></p>
             <p id="logoschrift2">Q</p> 
-            <p className="subtitel" id="unterzeileSand">Wassermanagement für eine gesicherte Zukunft</p>
+            <p className="subtitel" id="unterzeileSand">Süsswassermanagement für eine gesicherte Zukunft</p>
           </div>
         </div>
         <FooterSand />      

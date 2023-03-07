@@ -6,7 +6,7 @@ import team from '../Images/QanatTeamGuide.JPG'
 
 
 const Home = () => (
-    <div>
+    <div className="page">
      { <Header />}
         <div className="bg1" >
           <div className="firstoption" id="team">

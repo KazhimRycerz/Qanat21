@@ -6,7 +6,7 @@ import qanatimg from "../Images/qanatimg.jpg"
 
 
 const Home = () => (
-    <div className="page">
+    <div>
       <Header />
       <div className="bg1" >
         <div className="firstoption" id="system">

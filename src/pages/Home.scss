@@ -68,6 +68,7 @@ p {
     gap: 150px;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 #unterzeileBlue {
@@ -82,7 +83,7 @@ p {
 
 #unterzeileSand {
     font-family: $primary-font;
-    font-size: 1vw;
+    font-size: 1.5vw;
     letter-spacing: 1px;
     color: $qanat_sand;
     margin: -2rem auto 2rem;

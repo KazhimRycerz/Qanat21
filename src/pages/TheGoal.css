@@ -110,6 +110,10 @@ body {
   margin: 0px auto;
 }
 
+h2 {
+  font-size: 1.5vw;
+}
+
 @media screen and (max-width: 1024px) {
   body {
     background-color: rgb(245, 190, 125);
@@ -138,7 +142,6 @@ body {
   margin: 5%;
   display: block;
   color: rgb(10, 40, 60);
-  font-size: 40px;
   font-family: "FoundSanBd";
   text-align: left;
 }

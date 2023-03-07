@@ -110,6 +110,24 @@ body {
   margin: 0px auto;
 }
 
+h2 {
+  font-size: 1.5vw;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    background-color: rgb(245, 190, 125);
+    width: 80%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 760px) {
+  body {
+    background-color: rgb(245, 190, 125);
+    width: 100%;
+    margin: auto;
+  }
+}
 #team {
   display: flex;
   flex-flow: row nowrap;
@@ -123,7 +141,6 @@ body {
   display: inline;
   margin: 20px auto;
   color: rgb(10, 40, 60);
-  font-size: 40px;
   font-family: "FoundSanBd";
   margin: 0 auto;
   text-align: left;

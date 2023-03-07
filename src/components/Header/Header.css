@@ -110,6 +110,10 @@ body {
   margin: 0px auto;
 }
 
+h2 {
+  font-size: 1.5vw;
+}
+
 @media screen and (max-width: 1024px) {
   body {
     background-color: rgb(245, 190, 125);

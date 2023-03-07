@@ -10,7 +10,7 @@ const Home = () => (
      <Header />
         <div className="bg1">
           <div className="firstoption" id="goal">
-            <h2>Das Ziel</h2>
+            <h2>Die unternehmerische Aufgabe</h2>
             <img id="goalimg" src={projektziel} alt="" />
           </div> 
         </div>

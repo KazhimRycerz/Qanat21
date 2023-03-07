@@ -59,17 +59,21 @@ body {
   background-color: rgb(245, 190, 125);
 }
 
-Header {
-  height: 10%;
+.header {
+  position: fixed;
+  top: 0;
+  height: 100px;
+  width: 100%;
 }
 
-Footer {
-  height: 10%;
+.footer {
+  position: static;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
 }
 
 .bg1 {
-  background-color: rgb(245, 190, 125);
-  height: 40%;
   background-color: rgb(245, 190, 125);
   padding: 20px;
   margin: 0;
@@ -81,7 +85,7 @@ Footer {
   height: 98%;
   width: 100%;
   border: 4px solid rgb(10, 40, 60);
-  margin: 0px auto;
+  margin: 100px auto 0px;
   /*  background-image: url(../Images/image2.jpg);
   background-position: 50%;
   background-size: 150%; */
@@ -129,4 +133,7 @@ Footer {
   display: block;
   width: -moz-fit-content;
   width: fit-content;
+}
+#system img {
+  width: 70%;
 }/*# sourceMappingURL=TheSystem.css.map */

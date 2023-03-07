@@ -1,13 +1,11 @@
 {
   "files": {
-    "main.css": "/Qanat21/static/css/main.b81c81bf.css",
-    "main.js": "/Qanat21/static/js/main.d21adbbd.js",
+    "main.css": "/Qanat21/static/css/main.7967eb03.css",
+    "main.js": "/Qanat21/static/js/main.42694f6f.js",
     "static/media/Qanat_Projektziele.png": "/Qanat21/static/media/Qanat_Projektziele.b2a2b86c5b0452618554.png",
     "static/media/qanatimg.jpg": "/Qanat21/static/media/qanatimg.0522e0ac2ebf9069eadc.jpg",
-    "static/media/carbono.otf": "/Qanat21/static/media/carbono.cf8cd6948cbde487af68.otf",
     "static/media/ChalkLine-Outline.otf": "/Qanat21/static/media/ChalkLine-Outline.54c106fd3b70d4b0b22a.otf",
     "static/media/Compass.otf": "/Qanat21/static/media/Compass.b5d7d5f0eb371dc589d5.otf",
-    "static/media/Vacaciones-font-ffp-defharo.otf": "/Qanat21/static/media/Vacaciones-font-ffp-defharo.fc97657be1bebb564c40.otf",
     "static/media/QanatTeamGuide.JPG": "/Qanat21/static/media/QanatTeamGuide.3f1565bc26e4269c5dbc.JPG",
     "static/media/FOUSANMD.otf": "/Qanat21/static/media/FOUSANMD.e43d2a8c8609ff0ac764.otf",
     "static/media/FOUSANNO.otf": "/Qanat21/static/media/FOUSANNO.21f9830d6770015ff84f.otf",
@@ -17,26 +15,20 @@
     "static/media/Compass.woff2": "/Qanat21/static/media/Compass.aedad3d5521140b275fc.woff2",
     "static/media/ThunderLord.otf": "/Qanat21/static/media/ThunderLord.da8ad512fd9aa23a253b.otf",
     "static/media/Billboard-Shadow.otf": "/Qanat21/static/media/Billboard-Shadow.7c449a0f09458079cf66.otf",
-    "static/media/Vacaciones-font-ffp-defharo.woff2": "/Qanat21/static/media/Vacaciones-font-ffp-defharo.23eeae3f80bd50d3c572.woff2",
-    "static/media/CorporateSTOT-Reg.otf": "/Qanat21/static/media/CorporateSTOT-Reg.dca594a0de36376b9086.otf",
-    "static/media/CorporateSTOT-Dem.otf": "/Qanat21/static/media/CorporateSTOT-Dem.92f11131f6c67f661029.otf",
     "static/media/FOUSANBD.woff2": "/Qanat21/static/media/FOUSANBD.87bb266e33f0ff26f2c8.woff2",
-    "static/media/carbono.woff2": "/Qanat21/static/media/carbono.e9bf3b4407498d226e5f.woff2",
     "static/media/FOUSANNO.woff2": "/Qanat21/static/media/FOUSANNO.415e9d5dd6779c74ca71.woff2",
     "static/media/FOUSANMD.woff2": "/Qanat21/static/media/FOUSANMD.3398204d33453358d2e7.woff2",
     "static/media/FOUSANEB.woff2": "/Qanat21/static/media/FOUSANEB.ec941909726c99117860.woff2",
     "static/media/Billboard-Shadow.woff2": "/Qanat21/static/media/Billboard-Shadow.84181b78dde5280d7722.woff2",
-    "static/media/CorporateSTOT-Reg.woff2": "/Qanat21/static/media/CorporateSTOT-Reg.468ed0da8032f5ea127d.woff2",
-    "static/media/CorporateSTOT-Dem.woff2": "/Qanat21/static/media/CorporateSTOT-Dem.689637470ed0a896a34c.woff2",
     "static/media/ThunderLord.woff2": "/Qanat21/static/media/ThunderLord.b23fff5f642790bf3345.woff2",
     "static/media/VIA-Verlag.otf": "/Qanat21/static/media/VIA-Verlag.f9b0807e13383d5cb88c.otf",
     "static/media/VIA-Verlag.woff2": "/Qanat21/static/media/VIA-Verlag.ca1bde523566b12176ee.woff2",
     "index.html": "/Qanat21/index.html",
-    "main.b81c81bf.css.map": "/Qanat21/static/css/main.b81c81bf.css.map",
-    "main.d21adbbd.js.map": "/Qanat21/static/js/main.d21adbbd.js.map"
+    "main.7967eb03.css.map": "/Qanat21/static/css/main.7967eb03.css.map",
+    "main.42694f6f.js.map": "/Qanat21/static/js/main.42694f6f.js.map"
   },
   "entrypoints": [
-    "static/css/main.b81c81bf.css",
-    "static/js/main.d21adbbd.js"
+    "static/css/main.7967eb03.css",
+    "static/js/main.42694f6f.js"
   ]
 }

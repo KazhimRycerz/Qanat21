@@ -64,3 +64,19 @@ body {
     
     //background-image: linear-gradient($qanat_sand, $qanat_blue);
 }
+
+@media screen and (max-width:$desktop){
+    body {
+        background-color: $qanat_sand;
+        width: 80%;
+        margin: auto;
+    }
+  }
+
+@media screen and (max-width:$tablet){
+    body {
+        background-color: $qanat_sand;
+        width: 100%;
+        margin: auto;
+    }
+}

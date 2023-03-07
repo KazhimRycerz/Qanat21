@@ -1,5 +1,6 @@
 @import "../scss/global.scss";
 
+
 #logolang {
     border: 0.5vw $qanat_blue solid;
     color: $qanat_blue;
@@ -49,6 +50,7 @@ p {
     display: flex;
     flex-flow: row nowrap;
     flex: 1;
+    gap: 150px;
     justify-content: space-between;
     align-items: center;
 }

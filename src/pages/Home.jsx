@@ -5,7 +5,7 @@ import { FooterSand } from '../components/Footer/Footer.jsx'
 
 
 const Home = () => (
-    <div >
+    <div id="page">
      <Header />
         <div className="bg1">
           <div className="firstoption">

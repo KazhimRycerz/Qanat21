@@ -8,7 +8,7 @@ import team from '../Images/QanatTeamGuide.JPG'
 const Home = () => (
     <div className="bg">
      { <Header />}
-        <div className="bg1">
+        <div className="bg1" className="firstoption">
           <div id="team">
             <div>
               <h2>Projektteam Abteilung Q:</h2>

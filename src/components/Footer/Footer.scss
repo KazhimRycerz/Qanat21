@@ -5,6 +5,7 @@
   display: flex;
   background-color: $qanat_sand;
   color: $qanat_blue;
+  height: auto;
   /* box-shadow: 10px 20px 30px $qanat_blue; */
   /* border-bottom: 2px $qanat_blue; */
   ul {
@@ -34,11 +35,9 @@
 
   #footer_logo{
       font-size: 5rem;
-      padding: 20px;
       font-weight:100;
       //color: $qanat_blue;
       font-family: $qanat;
-      line-height: 120px;
     }
 }
    

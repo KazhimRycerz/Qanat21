@@ -57,13 +57,16 @@ $border-radius:*/
 /* logos */
 body {
   background-color: rgb(245, 190, 125);
+  width: 60%;
+  margin: auto;
 }
 
 .header {
-  position: fixed;
+  position: static;
   top: 0;
   height: 100px;
   width: 100%;
+  margin-top: 10%;
 }
 
 .footer {
@@ -85,7 +88,7 @@ body {
   height: 98%;
   width: 100%;
   border: 4px solid rgb(10, 40, 60);
-  margin: 100px auto 0px;
+  margin: auto 0px;
   /*  background-image: url(../Images/image2.jpg);
   background-position: 50%;
   background-size: 150%; */
@@ -114,8 +117,8 @@ body {
   gap: 20px;
 }
 #goal h2 {
+  margin: 5%;
   display: block;
-  margin: 100px auto;
   color: rgb(10, 40, 60);
   font-size: 40px;
   font-family: "FoundSanBd";

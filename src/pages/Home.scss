@@ -62,7 +62,7 @@ p {
 #unterzeileBlue {
     width: 10%;
     font-family: $primary-font;
-    font-size: 2rem;
+    font-size: 1.5vw;
     letter-spacing: 1px;
     color: $qanat_blue;
     text-align: left;
@@ -92,13 +92,14 @@ p {
         letter-spacing: 1px;
         //text-decoration: none;
         li {
-            text-decoration: none;
             list-style-type: none;
+            text-decoration: none;
             p{
                 letter-spacing: 1px;
                 color: $qanat_blue; 
                 font-family: $primary-font;
-                font-size: 20px;
+                font-size: 0.8vw;
+                text-decoration: none;
             }
         }   
     }
@@ -107,7 +108,7 @@ p {
 
 #unterzeileSand {
     font-family: $primary-font;
-    font-size: 2rem;
+    font-size: 1vw;
     letter-spacing: 1px;
     color: $qanat_sand;
     margin: -2rem auto 2rem;

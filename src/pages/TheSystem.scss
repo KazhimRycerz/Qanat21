@@ -13,20 +13,18 @@
             display: inline;
             //margin: 20px auto;
             color: $qanat_blue;
-            font-size: 40px;
+            //font-size: 1.5vw;
             font-family: $primary-font-bold;
             text-align: left;
         }
         p {
             font-family: $primary-font;
-            font-size: $xxlarge;
+            font-size: 1.3vw;
             color: $qanat_blue;
             font-weight: normal;
             letter-spacing: 1px;
             //margin-top: 50px;
             text-align: left;
-            display: block;
-            width:fit-content;
         }
     }
     img {

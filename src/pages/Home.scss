@@ -36,6 +36,17 @@ p {
     }
 }
 
+#logoschrift {
+    font-family: $qanat;
+    font-size: 15vw;
+    color: $qanat_blue;
+    margin: 0 auto;
+    text-align: center;
+    display: inline;
+    border: none;
+    //text-shadow: 5px 5px 0px transparent;
+}
+
 #logoschrift2 {
     font-family: $qanat;
     font-size: 15vw;
@@ -68,15 +79,13 @@ p {
     text-align: left;
     margin: 0 auto;
 }
-#logoschrift {
-    font-family: $qanat;
-    font-size: 15vw;
-    color: $qanat_blue;
-    margin: 0 auto;
-    text-align: center;
-    display: inline;
-    border: none;
-    //text-shadow: 5px 5px 0px transparent;
+
+#unterzeileSand {
+    font-family: $primary-font;
+    font-size: 1vw;
+    letter-spacing: 1px;
+    color: $qanat_sand;
+    margin: -2rem auto 2rem;
 }
 
 #navOnPage {
@@ -89,7 +98,6 @@ p {
         align-items: flex-end;
         padding: 0px;
         font-family: $primary-font;
-        letter-spacing: 1px;
         //text-decoration: none;
         li {
             list-style-type: none;
@@ -98,7 +106,7 @@ p {
                 letter-spacing: 1px;
                 color: $qanat_blue; 
                 font-family: $primary-font;
-                font-size: 0.8vw;
+                font-size: 1vw;
                 text-decoration: none;
             }
         }   
@@ -106,13 +114,6 @@ p {
 }
 
 
-#unterzeileSand {
-    font-family: $primary-font;
-    font-size: 1vw;
-    letter-spacing: 1px;
-    color: $qanat_sand;
-    margin: -2rem auto 2rem;
-}
 
 #logolang2 {
     border: 0.5vw $qanat_sand solid;

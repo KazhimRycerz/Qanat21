@@ -1,22 +1,22 @@
 //import { NavLink } from 'react-router-dom'
 import './TheGoal.scss';
 import Header from '../components/Header/Header.jsx';
-import Footer from '../components/Footer/Footer.jsx';
+import { FooterBlue } from '../components/Footer/Footer.jsx';
 import projektziel from "../Images/Qanat_Projektziele.png"
 
 
 const Home = () => (
-    <div className="bg">
+    <div>
      <Header />
-        <div id="goalbg1">
-          <div id="firstoption">
+        <div className="bg1">
+          <div className="firstoption" id="goal">
             <h2>Das Ziel</h2>
-            <img src={projektziel} alt="" />
+            <img id="goalimg" src={projektziel} alt="" />
           </div> 
         </div>
 
-      <Footer />
+      <FooterBlue />
     </div>
 )
 
-    export default Home
+export default Home

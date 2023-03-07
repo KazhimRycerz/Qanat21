@@ -8,22 +8,6 @@
   src: url("../../fonts/Bilboard/Billboard-Shadow.woff2") format("woff2"), url("../../fonts/Bilboard/Billboard-Shadow.otf") format("otf");
 }
 @font-face {
-  font-family: "Carbono";
-  src: url("../../fonts/carbono/carbono.woff2") format("woff2"), url("../../fonts/carbono/carbono.otf") format("otf");
-}
-@font-face {
-  font-family: "Vacaciones";
-  src: url("../../fonts/vacaciones-outline/Vacaciones-font-ffp-defharo.woff2") format("woff2"), url("../../fonts/vacaciones-outline/Vacaciones-font-ffp-defharo.otf") format("otf");
-}
-@font-face {
-  font-family: "CorporateDemi";
-  src: url("../../fonts/Corporate/CorporateSTOT-Dem.woff2") format("woff2"), url("../../fonts/Corporate//CorporateSTOT-Dem.otf") format("otf");
-}
-@font-face {
-  font-family: "CorporateReg";
-  src: url("../../fonts/Corporate/CorporateSTOT-Reg.woff2") format("woff2"), url("../../fonts/Corporate/CorporateSTOT-Reg.otf") format("otf");
-}
-@font-face {
   font-family: "ChalkLine";
   src: url("../../fonts/chalk_line_outline/ChalkLine-Outline.woff2") format("woff2"), url("../../fonts/chalk_line_outline/ChalkLine-Outline.otf") format("otf");
 }
@@ -72,21 +56,20 @@ $border-radius:*/
 /* Fonts */
 /* logos */
 body {
-  width: 100vw;
-  height: 100vh;
-}
-
-h1 {
-  color: rgb(10, 40, 60);
-  font-size: 50px;
-  font-family: "FoundSanBd";
+  background-color: rgb(245, 190, 125);
 }
 
 Header {
   height: 10%;
 }
 
-#bg1 {
+Footer {
+  position: absolute;
+  bottom: 0;
+  height: 10%;
+}
+
+.bg1 {
   background-color: rgb(245, 190, 125);
   height: 40%;
   background-color: rgb(245, 190, 125);
@@ -94,14 +77,7 @@ Header {
   margin: 0;
 }
 
-#bg2 {
-  background-color: rgb(10, 40, 60);
-  height: 40%;
-  background-color: rgb(10, 40, 60);
-  padding: 20px;
-}
-
-#firstoption {
+.firstoption {
   background-color: rgb(245, 190, 125);
   padding: 20px;
   height: 98%;
@@ -109,8 +85,24 @@ Header {
   border: 4px solid rgb(10, 40, 60);
   margin: 0px auto;
   /*  background-image: url(../Images/image2.jpg);
-   background-position: 50%;
-   background-size: 150%; */
+  background-position: 50%;
+  background-size: 150%; */
+}
+
+.bg2 {
+  background-color: rgb(10, 40, 60);
+  height: 40%;
+  background-color: rgb(10, 40, 60);
+  padding: 20px;
+}
+
+.secondoption {
+  background-color: rgb(10, 40, 60);
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  border: 4px solid rgb(245, 190, 125);
+  margin: 0px auto;
 }
 
 #logolang {
@@ -152,14 +144,6 @@ p span {
   text-align: center;
   display: block;
   border: none;
-}
-
-#unterzeileSand {
-  font-family: "FoundSanExpNorm", sans-serif;
-  font-size: 2rem;
-  letter-spacing: 1px;
-  color: rgb(245, 190, 125);
-  margin: -2rem auto 2rem;
 }
 
 #centerTop {
@@ -214,13 +198,12 @@ p span {
   font-size: 20px;
 }
 
-#secondoption {
-  background-color: rgb(10, 40, 60);
-  padding: 20px;
-  height: 100%;
-  width: 100%;
-  border: 4px solid rgb(245, 190, 125);
-  margin: 0px auto;
+#unterzeileSand {
+  font-family: "FoundSanExpNorm", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  color: rgb(245, 190, 125);
+  margin: -2rem auto 2rem;
 }
 
 #logolang2 {
@@ -232,6 +215,13 @@ p span {
   width: fit-content;
 }
 
-Footer {
-  height: 10%;
+@media screen and (max-width: 1024px) {
+  #unterzeileBlue, #unterzeileSand {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 760px) {
+  #unterzeileBlue, #unterzeileSand {
+    font-size: 15x;
+  }
 }/*# sourceMappingURL=Home.css.map */

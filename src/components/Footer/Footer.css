@@ -59,17 +59,11 @@ body {
   background-color: rgb(245, 190, 125);
 }
 
-.header {
+Header {
   height: 10%;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  margin-bottom: 50px;
 }
 
 Footer {
-  position: absolute;
-  bottom: 0;
   height: 10%;
 }
 
@@ -109,41 +103,53 @@ Footer {
   margin: 0px auto;
 }
 
-nav {
+.footer {
   display: flex;
-  background-color: rgb(10, 40, 60);
-  color: rgb(245, 190, 125);
-  /* box-shadow: 10px 20px 30px $qanat_sand; */
+  background-color: rgb(245, 190, 125);
+  color: rgb(10, 40, 60);
+  /* box-shadow: 10px 20px 30px $qanat_blue; */
   /* border-bottom: 2px $qanat_blue; */
 }
-nav ul {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: right;
-  align-items: center;
-  gap: 20px;
+.footer ul {
   font-family: "FoundSanExpNorm", sans-serif;
   font-size: 20px;
   position: static;
   top: 0px;
   left: 0px;
-  padding: 20px;
+  display: flex;
+  justify-content: left;
+  gap: 100px;
+  align-items: center;
+  padding: 30px;
+  flex-flow: row nowrap;
   width: 100%;
-}
-nav ul li {
   list-style-type: none;
-  text-decoration: none;
 }
-nav ul li p {
-  letter-spacing: 1px;
-  color: rgb(245, 190, 125);
+.footer p {
   font-family: "FoundSanExpNorm", sans-serif;
-  font-size: 20px;
-  text-decoration: none;
+  font-size: 1rem;
+  padding: 20px;
+  font-weight: 100;
+  letter-spacing: normal;
 }
-nav p {
+.footer #footer_logo {
   font-size: 5rem;
   padding: 20px;
   font-weight: 100;
+  font-family: "Compass";
+  line-height: 120px;
+}
+
+#footersand {
+  background-color: rgb(245, 190, 125);
+}
+#footersand p {
+  color: rgb(10, 40, 60);
+}
+
+#footerblue {
+  background-color: rgb(10, 40, 60);
+}
+#footerblue p {
   color: rgb(245, 190, 125);
-}/*# sourceMappingURL=Header.css.map */
+}/*# sourceMappingURL=Footer.css.map */

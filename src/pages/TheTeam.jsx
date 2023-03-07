@@ -1,16 +1,15 @@
 //import { NavLink } from 'react-router-dom'
 import './TheTeam.scss'
 import Header from '../components/Header/Header.jsx'
-import Footer from '../components/Footer/Footer.jsx'
+import { FooterBlue }  from '../components/Footer/Footer.jsx'
 import team from '../Images/QanatTeamGuide.JPG'
 
 
 const Home = () => (
     <div className="bg">
      { <Header />}
-      
-        <div id="bg1">
-          <div id="teamFirstOption">
+        <div className="bg1">
+          <div id="team">
             <div>
               <h2>Projektteam Abteilung Q:</h2>
               <p> <h3>Initiatorin und Leitung:</h3> 	
@@ -19,10 +18,10 @@ const Home = () => (
               <p>Ebrahim Salimi, Bauingenieur, BSc, Master-Student an der Universität Duisburg-Essen</p>
               <p>Joachim Ritter, Strategist, Journalist, Webdeveloper</p>
             </div>
-            <img src={team} alt=""/>
+            <img id="teamimage" src={team} alt=""/>
           </div> 
         </div>
-        <Footer />
+        <FooterBlue />
       
       
      

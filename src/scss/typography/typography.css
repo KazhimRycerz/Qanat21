@@ -1,6 +1,4 @@
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
-
-
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
 @font-face {
   font-family: "VIA-Verlag";
   src: url("../../fonts/VIA-Verlag.woff2") format("woff2"), url("../../fonts/VIA-Verlag.otf") format("otf");
@@ -9,7 +7,6 @@
   font-family: "BillboardShadow";
   src: url("../../fonts/Bilboard/Billboard-Shadow.woff2") format("woff2"), url("../../fonts/Bilboard/Billboard-Shadow.otf") format("otf");
 }
-
 @font-face {
   font-family: "ChalkLine";
   src: url("../../fonts/chalk_line_outline/ChalkLine-Outline.woff2") format("woff2"), url("../../fonts/chalk_line_outline/ChalkLine-Outline.otf") format("otf");
@@ -37,4 +34,4 @@
 @font-face {
   font-family: "Compass";
   src: url("../../fonts/Compass/Compass.woff2") format("woff2"), url("../../fonts/Compass/Compass.otf") format("otf");
-}
+}/*# sourceMappingURL=typography.css.map */

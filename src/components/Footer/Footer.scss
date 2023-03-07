@@ -7,7 +7,6 @@
   color: $qanat_blue;
   /* box-shadow: 10px 20px 30px $qanat_blue; */
   /* border-bottom: 2px $qanat_blue; */
-
   ul {
     font-family: $primary-font;
     font-size: 20px;
@@ -29,7 +28,7 @@
     font-size: 1rem;
     padding: 20px;
     font-weight:100;
-    color: $qanat_blue;
+    //color: $qanat_blue;
     letter-spacing: normal;
   }
 
@@ -37,9 +36,21 @@
       font-size: 5rem;
       padding: 20px;
       font-weight:100;
-      color: $qanat_blue;
+      //color: $qanat_blue;
       font-family: $qanat;
       line-height: 120px;
     }
 }
    
+#footersand {
+  background-color: $qanat_sand;
+  p{
+  color: $qanat_blue;
+  }
+}
+#footerblue {
+  background-color: $qanat_blue;
+  p{
+  color: $qanat_sand;
+  }
+}

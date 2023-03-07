@@ -63,8 +63,6 @@ body {
   height: 10%;
   position: fixed;
   top: 0;
-  width: 100%;
-  margin-bottom: 50px;
 }
 
 Footer {
@@ -109,41 +107,20 @@ Footer {
   margin: 0px auto;
 }
 
-nav {
-  display: flex;
-  background-color: rgb(10, 40, 60);
-  color: rgb(245, 190, 125);
-  /* box-shadow: 10px 20px 30px $qanat_sand; */
-  /* border-bottom: 2px $qanat_blue; */
+#goal {
+  height: 50%;
 }
-nav ul {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: right;
-  align-items: center;
-  gap: 20px;
-  font-family: "FoundSanExpNorm", sans-serif;
-  font-size: 20px;
-  position: static;
-  top: 0px;
-  left: 0px;
-  padding: 20px;
+#goal h2 {
+  display: block;
+  margin: 20px auto;
+  color: rgb(10, 40, 60);
+  font-size: 40px;
+  font-family: "FoundSanBd";
+  margin: 0 auto;
+  text-align: left;
+}
+#goal #goalimg {
   width: 100%;
-}
-nav ul li {
-  list-style-type: none;
-  text-decoration: none;
-}
-nav ul li p {
-  letter-spacing: 1px;
-  color: rgb(245, 190, 125);
-  font-family: "FoundSanExpNorm", sans-serif;
-  font-size: 20px;
-  text-decoration: none;
-}
-nav p {
-  font-size: 5rem;
-  padding: 20px;
-  font-weight: 100;
-  color: rgb(245, 190, 125);
-}/*# sourceMappingURL=Header.css.map */
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=TheGoal.css.map */

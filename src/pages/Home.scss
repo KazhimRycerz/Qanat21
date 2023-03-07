@@ -1,53 +1,5 @@
 @import "../scss/global.scss";
 
-
-body {
-    width: 100vw;
-    height: 100vh;
-    //opacity: 0.5;
-    
-}
-
-h1 {
-    color: $qanat_blue;
-    font-size: 40px;
-    font-family: $primary-font-bold;
-}
-Header {
-    height: 10%;
-    //border-bottom: solid 0px white;
-}
-
-#bg1 {
-    background-color: $qanat_sand;
-    height: 40%;
-    background-color: $qanat_sand;
-    padding: 20px;
-    margin: 0;
-}
-#bg2 {
-    background-color: $qanat_blue;
-    height: 40%;
-    background-color: $qanat_blue;
-    padding: 20px;
-}
-
-#firstoption {
-    background-color: $qanat_sand;
-    padding: 20px;
-    height: 98%;
-    width: 100%;
-    border: 4px solid $qanat_blue;
-    margin: 0px auto;
-   /*  background-image: url(../Images/image2.jpg);
-    background-position: 50%;
-    background-size: 150%; */
-    //background-image: url(../Images/image2.jpg);
-   //background-image: linear-gradient($qanat_blue, $qanat_sand);
-    //background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));
-}
-
-
 #logolang {
     border: 0.5vw $qanat_blue solid;
     color: $qanat_blue;
@@ -92,18 +44,11 @@ p {
     //text-shadow: 5px 5px 0px #transparent;
     
 }
-#unterzeileSand {
-    font-family: $primary-font;
-    font-size: 2rem;
-    letter-spacing: 1px;
-    color: $qanat_sand;
-    margin: -2rem auto 2rem;
-}
 
 #centerTop {
     display: flex;
-    flex: 1;
     flex-flow: row nowrap;
+    flex: 1;
     justify-content: space-between;
     align-items: center;
 }
@@ -116,7 +61,7 @@ p {
     color: $qanat_blue;
     text-align: left;
     margin: 0 auto;
-    }
+}
 #logoschrift {
     font-family: $qanat;
     font-size: 30vw;
@@ -124,8 +69,8 @@ p {
     margin: 0 auto;
     text-align: center;
     display: inline;
-    border: none
-    //text-shadow: 5px 5px 0px #transparent;
+    border: none;
+    //text-shadow: 5px 5px 0px transparent;
 }
 
 #navOnPage {
@@ -153,15 +98,13 @@ p {
     }
 }
 
-#secondoption {
-    background-color: $qanat_blue;
-    padding: 20px;
-    height: 100%;
-    width: 100%;
-    border: 4px solid $qanat_sand;
-    margin: 0px auto;
-   
-    //background-image: linear-gradient($qanat_sand, $qanat_blue);
+
+#unterzeileSand {
+    font-family: $primary-font;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    color: $qanat_sand;
+    margin: -2rem auto 2rem;
 }
 
 #logolang2 {
@@ -172,8 +115,15 @@ p {
     width:fit-content
 }
 
-Footer {
-    height: 10%;
-}
+@media screen and (max-width:$desktop){
+    #unterzeileBlue, #unterzeileSand{
+      font-size: 24px;
+    }  
+  }
 
+@media screen and (max-width:$tablet){
+#unterzeileBlue, #unterzeileSand{
+    font-size: 15x;
+}  
+}
 

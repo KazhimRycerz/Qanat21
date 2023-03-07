@@ -1,45 +1,39 @@
 import { Link } from 'react-router-dom'
 import './Home.scss'
-//import Qanat_Logo from '../Images/Qanat21_Logo_Q.png'
-//import Qanat_Logo_Schriftzug from '../Images/Qanat_Schriftzug.png'
 import Header from '../components/Header/Header.jsx'
-import Footer from '../components/Footer/Footer.jsx'
+import { FooterSand } from '../components/Footer/Footer.jsx'
 
 
 const Home = () => (
-    <div className="bg">
-     { <Header />}
-      {/* <h1>Hier entsteht die Qanat21 Webseite</h1> */}
-        <div id="bg1">
-          <div id="firstoption">
+    <div >
+     <Header />
+        <div className="bg1">
+          <div className="firstoption">
             <p id="logolang">qanat<span>21</span></p> 
             <div id="centerTop">
-              <p id="unterzeileBlue">Süsswassermanagement für eine gesicherte Zukunft</p>
+              <p className="subtitel" id="unterzeileBlue">Süsswassermanagement für eine gesicherte Zukunft</p>
               <p id="logoschrift">Q</p> 
               <p id="navOnPage">
                 <ul>
-                  <li><Link to="/home"> <p>home</p> </Link></li>
+                  <li><Link to="/home"> <p>zum ursprung</p> </Link></li>
                   {/* <li><Link to="/about"> <p>about</p> </Link></li> */}
-                  <li><Link to="/thesystem"> <p>the system</p> </Link></li>
-                  <li><Link to="/thegoal"> <p>the goal</p> </Link></li>
-                  <li><Link to="/theteam"> <p>the team</p> </Link></li>
-                  <li><Link to="/home"> <p>contact</p> </Link> </li>
+                  <li><Link to="/thesystem"> <p>das system</p> </Link></li>
+                  <li><Link to="/thegoal"> <p>die Aufgabe</p> </Link></li>
+                  <li><Link to="/theteam"> <p>das team</p> </Link></li>
+                  <li><Link to="/home"> <p>kontakt</p> </Link> </li>
                 </ul>
               </p>
             </div >
           </div> 
         </div>
-        <div id="bg2">
-          <div id="secondoption">
+        <div className="bg2">
+          <div className="secondoption">
             <p id="logolang2">qanat<span>21</span></p>
             <p id="logoschrift2">Q</p> 
-            <p id="unterzeileSand">Wassermanagement für eine gesicherte Zukunft</p>
+            <p className="subtitel" id="unterzeileSand">Wassermanagement für eine gesicherte Zukunft</p>
           </div>
         </div>
-        <Footer />
-      {/* <img id="QanatSchriftzug" src={Qanat_Logo_Schriftzug} alt="" />
-      <img id="QuanatLogo" src={Qanat_Logo} alt="" /> */}
-      
+        <FooterSand />      
      
     </div>
 )

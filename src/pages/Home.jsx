@@ -15,12 +15,12 @@ const Home = () => (
               <p id="logoschrift">Q</p> 
               <p id="navOnPage">
                 <ul>
-                  <li><Link to="/home"> <p>zum ursprung</p> </Link></li>
+                  <li><Link to="/home"> <p>zum Ursprung</p> </Link></li>
                   {/* <li><Link to="/about"> <p>about</p> </Link></li> */}
-                  <li><Link to="/thesystem"> <p>das system</p> </Link></li>
+                  <li><Link to="/thesystem"> <p>das System</p> </Link></li>
                   <li><Link to="/thegoal"> <p>die Aufgabe</p> </Link></li>
-                  <li><Link to="/theteam"> <p>das team</p> </Link></li>
-                  <li><Link to="/home"> <p>kontakt</p> </Link> </li>
+                  <li><Link to="/theteam"> <p>das Team</p> </Link></li>
+                  <li><Link to="/home"> <p>Kontakt</p> </Link> </li>
                 </ul>
               </p>
             </div >

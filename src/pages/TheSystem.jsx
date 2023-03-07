@@ -12,7 +12,7 @@ const Home = () => (
         <div className="firstoption" id="system">
           <div>
             <h2>Die Idee</h2>
-            <p>Ein 5000 Jahre altes System angepasst an moderne digitale steuerungsmöglichkeiten.</p>
+            <p>Ein 5000 Jahre altes System angepasst an moderne digitale Steuerungsmöglichkeiten.</p>
           </div>
           <img src={qanatimg} alt="" />
         </div> 

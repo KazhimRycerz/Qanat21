@@ -7,9 +7,10 @@
     justify-content: center;
     gap: 20px;
     
-        h2 {
+    h2 {
+            margin: 5%;
             display: block;
-            margin: 100px auto;
+            //margin: 100px auto;
             color: $qanat_blue;
             font-size: 40px;
             font-family: $primary-font-bold;

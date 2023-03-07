@@ -6,6 +6,7 @@
     flex: 1;
     gap: 50px;
     div {
+        margin:5%;
         h2 {
             display: inline;
             margin: 20px auto;
@@ -28,7 +29,9 @@
         }
     }
     #teamimage {
-        height: 80%;
+        height: 100%;
+        margin:5%;
         max-height: 550px;
+        margin-left: 5%;
     }
 }

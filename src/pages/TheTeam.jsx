@@ -13,9 +13,9 @@ const Home = () => (
             <div>
               <h2>Projektteam Abteilung Q:</h2>
               <p> <h3>Initiatorin und Leitung:</h3> 	
-              Kazhal Akbari, Elektroingenieurin, BSc, Master-Student an der Universität Duisburg-Essen</p> 
+              Kazhal Akbari, Elektroingenieurin, BSc, <br />Master-Student an der Universität Duisburg-Essen</p> 
               <p><h3>Team:</h3> 	Fariba Akbari, Bauingenieurin, BSc</p>
-              <p>Ebrahim Salimi, Bauingenieur, BSc, Master-Student an der Universität Duisburg-Essen</p>
+              <p>Ebrahim Salimi, Bauingenieur, BSc, <br />Master-Student an der Universität Duisburg-Essen</p>
               <p>Joachim Ritter, Strategist, Journalist, Webdeveloper</p>
             </div>
             <img id="teamimage" src={team} alt=""/>

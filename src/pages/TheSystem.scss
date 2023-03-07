@@ -8,14 +8,13 @@
     gap: 20px;
     div {
         width: 30%;
-        margin: 100px;
+        margin: 5%;
         h2 {
             display: inline;
-            margin: 20px auto;
+            //margin: 20px auto;
             color: $qanat_blue;
             font-size: 40px;
             font-family: $primary-font-bold;
-            //margin: 0 auto;
             text-align: left;
         }
         p {
@@ -31,7 +30,7 @@
         }
     }
     img {
-        width: 50%;
+        width: 60%;
         object-fit: contains;
     }
 }

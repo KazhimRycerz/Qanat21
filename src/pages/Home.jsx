@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import './Home.scss'
 import Header from '../components/Header/Header.jsx'
-import { FooterSand } from '../components/Footer/Footer.jsx'
+import { FooterSand, FooterBlue } from '../components/Footer/Footer.jsx'
 
 
 const Home = () => (
@@ -26,14 +26,14 @@ const Home = () => (
             </div >
           </div> 
         </div>
-        <div className="bg2">
+        {/* <div className="bg2">
           <div className="secondoption">
             <p id="logolang2">qanat<span>21</span></p>
             <p id="logoschrift2">Q</p> 
             <p className="subtitel" id="unterzeileSand">Süsswassermanagement für eine gesicherte Zukunft</p>
           </div>
-        </div>
-        <FooterSand />      
+        </div> */}
+        <FooterBlue />      
      
     </div>
 )

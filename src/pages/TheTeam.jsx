@@ -21,10 +21,7 @@ const Home = () => (
             <img id="teamimage" src={team} alt=""/>
           </div> 
         </div>
-        <FooterBlue />
-      
-      
-     
+        <FooterBlue /> 
     </div>
 )
 

@@ -3,9 +3,9 @@
 #team {
     display: flex;
     flex-flow: row nowrap;
-    flex: 1;
     gap: 50px;
     div {
+        flex: 1;
         margin: 5% 0 5% 5%;
         //border: solid;
         h2 {
@@ -34,7 +34,7 @@
         width: auto;
         //margin:5%;
         max-height: 500px;
-        margin-left: 5%;
+        margin-left: 0%;
         position: relative;
         left: 0px;
         object-position: center center;

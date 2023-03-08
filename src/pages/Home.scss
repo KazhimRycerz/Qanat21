@@ -119,13 +119,14 @@ p {
         gap: 10px;
         align-items: flex-end;
         position: relative;
-        right: 23%;
+        right: -10%;
         font-family: $primary-font;
-        margin-top: 20px;
+        margin-top: 10px;
+        //border: solid blue;
         li {
             list-style-type: none;
-            text-decoration: none;
             //border: solid blue;
+            width: 100%;
             p{
                 width: 130px;
                 letter-spacing: 1px;

@@ -11,7 +11,7 @@ const Home = () => (
           <div className="firstoption">
             <p id="logolang">qanat<span>21</span></p> 
             <div id="centerTop">
-              <p className="subtitel" id="unterzeileBlue">Süsswassermanagement für eine gesicherte Zukunft</p>
+              <p className="subtitel" id="unterzeileBlue">Süsswasser-<br/>management für eine gesicherte Zukunft</p>
               <p id="logoschrift">Q</p> 
               <p id="navOnPage">
                 <ul>

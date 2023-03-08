@@ -13,7 +13,7 @@ nav {
     flex-flow: row nowrap;
     justify-content:right;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     font-family: $primary-font;
     
     position:static;
@@ -22,15 +22,21 @@ nav {
     padding: 10px;
     width: 100%;
     li {
+      //border: solid;
       list-style-type: none;
       text-decoration: none;
       p{
+        padding: 1px;
         letter-spacing: 1px;
         color: $qanat_sand; 
         font-family: $primary-font;
         font-size: 1rem;
         text-decoration: none;
-    }
+      }
+      p:hover {
+        text-shadow: 10px 5px 10px;
+        box-shadow: 5px 5px 10px;
+      }
     }
   }
   p {

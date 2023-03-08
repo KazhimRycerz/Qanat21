@@ -6,7 +6,8 @@
     flex: 1;
     gap: 50px;
     div {
-        margin:5%;
+        margin: 5% 0 5% 5%;
+        //border: solid;
         h2 {
             display: inline;
             margin: 20px auto;
@@ -22,7 +23,7 @@
             color: $qanat_blue;
             font-weight: normal;
             letter-spacing: 1px;
-            margin-top: 50px;
+            margin-top: 30px;
             text-align: left;
             display: block;
             width:fit-content;
@@ -34,6 +35,11 @@
         //margin:5%;
         max-height: 500px;
         margin-left: 5%;
+        position: relative;
+        left: 0px;
+        object-position: center center;
+        //border: solid;
+        box-shadow: 10px 10px 20px $qanat_blue;
       
     }
 }

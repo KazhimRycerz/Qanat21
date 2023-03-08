@@ -7,13 +7,25 @@
     display: block;
     padding: 20px;
     margin: 10px auto;
-    width:fit-content;  
+    width:70%;
+    //max-width: 70%;  
     font-size: 5vw;
     span{
         font-size: 5vw;
     }
 }
 
+#logolang2 {
+    border: 0.5vw $qanat_sand solid;
+    display:block;
+    padding: 20px;
+    margin: 10px auto;
+    width:fit-content;
+    font-size: 5vw;
+    span{
+        font-size: 5vw;
+    }
+}
 p {
     font-family:$qanat;
     font-size: 9vw;
@@ -62,23 +74,31 @@ p {
 }
 
 #centerTop {
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     flex-flow: row nowrap;
     flex: 1;
-    gap: 150px;
-    justify-content: space-between;
-    align-items: center;
+    gap: 0px;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+    >* {
+        //border: solid blue;
+        flex-grow: 1;
+    }
     
 }
 
 #unterzeileBlue {
-    width: 10%;
+    width: 20%;
     font-family: $primary-font;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     letter-spacing: 1px;
     color: $qanat_blue;
     text-align: left;
-    margin: 0 auto;
+    margin: 40px auto;
+    //padding-left: 0%;
 }
 
 #unterzeileSand {
@@ -90,43 +110,42 @@ p {
 }
 
 #navOnPage {
-    margin: 0 auto;
+    //border: solid blue;
+
     ul {
         display: flex;
         flex-flow: column nowrap;
-        justify-content:space-between;
+        justify-content:center;
         gap: 10px;
         align-items: flex-end;
-        padding: 0px;
+        position: relative;
+        right: 23%;
         font-family: $primary-font;
-        //text-decoration: none;
+        margin-top: 20px;
         li {
             list-style-type: none;
             text-decoration: none;
+            //border: solid blue;
             p{
+                width: 130px;
                 letter-spacing: 1px;
                 color: $qanat_blue; 
                 font-family: $primary-font;
                 font-size: 1vw;
                 text-decoration: none;
+                padding: 1px;
+                text-align: right;
             }
+            p:hover {
+                text-shadow: 10px 5px 10px;
+                box-shadow: 5px 5px 10px;
+              }
         }   
     }
 }
 
 
 
-#logolang2 {
-    border: 0.5vw $qanat_sand solid;
-    display:block;
-    padding: 20px;
-    margin: 10px auto;
-    width:fit-content;
-    font-size: 5vw;
-    span{
-        font-size: 5vw;
-    }
-}
 
 
 

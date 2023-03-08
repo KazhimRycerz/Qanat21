@@ -76,6 +76,15 @@ h2 {
         width: 80%;
         margin: auto;
     }
+    nav ul li p {
+        font-size: 0.7rem;
+    };
+    #navOnPage ul li p{
+        font-size: 12px;   
+    };
+    #unterzeileBlue {
+        font-size: 14px;
+    }
   }
 
 @media screen and (max-width:$tablet){
@@ -83,5 +92,11 @@ h2 {
         background-color: $qanat_sand;
         width: 100%;
         margin: auto;
+    }
+    #navOnPage ul li p{
+        font-size: 10px;
+    }
+    #unterzeileBlue {
+        font-size: 12px;
     }
 }
